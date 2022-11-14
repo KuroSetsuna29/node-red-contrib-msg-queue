@@ -1,6 +1,6 @@
 {
-  "name": "node-red-contrib-msg-queue",
-  "version": "1.0.2",
+  "name": "node-red-contrib-msg-queue-kuro",
+  "version": "1.0.2-fix",
   "description": "A contributed Node-RED node, that queues undeliverable messages to file for later delivery.",
   "keywords": [
     "node-red",
@@ -18,8 +18,8 @@
     }
   },
   "dependencies": {
-    "node-persistent-queue": "^0.3.1",
-    "shallowequal": "^1.0.1"
+    "shallowequal": "^1.1.0",
+    "sqlite3": "^5.1.2"
   },
   "repository": "https://github.com/damoclark/node-red-contrib-msg-queue",
   "bugs": "https://github.com/damoclark/node-red-contrib-msg-queue/issues",

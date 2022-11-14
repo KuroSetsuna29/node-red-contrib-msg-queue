@@ -26,7 +26,7 @@
 module.exports = function (RED) {
 	"use strict";
 
-	var Queue = require('node-persistent-queue') ;
+	var Queue = require('../node-persistent-queue') ;
 	var shallowequal = require('shallowequal') ;
 
 	function QueueNode(config) {
